@@ -15,7 +15,9 @@ Solution: Before running the code, we can set the random seed fix. So at every n
 In t-SNE, perplexity can be interpreted as a smooth measure of the effective number of nearest neighbors. Any particular value of σ_i induces a probability distribution, P_i, over all of the other datapoints. This distribution has an entropy which increases as σ_i increases. SNE performs a binary search for the value of σi that produces a Pi with a fixed perplexity that is specified by the user. 
 
 Observation: 
+
 -- If the dataset are large, perplexity between 30-50 may work better
+
 -- If the dataset are dense and small, perlexity between 10-30 may work better
 
 3. Application
