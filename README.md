@@ -19,6 +19,9 @@ Observation:
 -- If the dataset are dense and small, perlexity between 10-30 may work better
 
 3. Application
+
 -- Effective algorithm to embed high dimensional data to low dimensional space
+
 -- Can be used to measure the quality control of data
+
 -- Can be utilized to check how data are distributed in high dimensional space
