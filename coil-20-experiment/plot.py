@@ -23,7 +23,6 @@ perp_95 = np.load('Y_perp_95.npy')
 perp_100 = np.load('Y_perp_100.npy')
 
 y = np.load('labels_coil.npy')
-#y = np.zeros(1440)
 fig, axes = plt.subplots(5, 4, figsize=(20, 10))
 axes[0, 0].scatter(perp_5[:, 0], perp_5[:, 1], 5, c=y)
 axes[0, 0].set_title('Perp : 5')
